@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CameraControls.cs">
+    <Files>
+      <File FileName="Assets\ExampleEntity.json" Line="30" Column="21" />
+      <File FileName="Assets\RenderEntity.cs" Line="25" Column="22" />
+      <File FileName="Assets\Billboard.cs" Line="1" Column="1" />
+      <File FileName="Assets\CameraControls.cs" Line="33" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

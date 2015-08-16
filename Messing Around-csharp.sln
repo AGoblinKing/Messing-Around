@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FE698BFA-E599-77E1-BE95-61C79E646904}") = "Messing Around", "Assembly-CSharp-vs.csproj", "{05CBAF4E-81C4-6725-DBAF-9019BE9F59FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05CBAF4E-81C4-6725-DBAF-9019BE9F59FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CBAF4E-81C4-6725-DBAF-9019BE9F59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CBAF4E-81C4-6725-DBAF-9019BE9F59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CBAF4E-81C4-6725-DBAF-9019BE9F59FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

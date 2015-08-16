@@ -1,0 +1,115 @@
+{
+    "guid": "BasicHuman",
+    "nodes": [
+        {
+            "euid": "head",
+            "pos": [
+                0,
+                25,
+                0
+            ]
+        },
+        {
+            "euid": "body",
+            "pos": [
+                0,
+               	20,
+                0
+            ]
+        },
+        {
+            "euid": "left_arm",
+            "pos": [
+                -5,
+                20,
+                0
+            ]
+        },
+        {
+            "euid": "right_arm",
+            "pos": [
+                5,
+                20,
+                0
+            ]
+        },
+        {
+            "euid": "left_hand",
+            "pos": [
+                -5,
+                15,
+                0
+            ]
+        },
+        {
+            "euid": "right_hand",
+            "pos": [
+                5,
+                15,
+                0
+            ]
+        },
+        {
+            "euid": "body_end",
+            "pos": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "bones": [
+        {
+            "euid": "neck",
+            "from": "body",
+            "to": "head"
+        },
+        {
+            "euid": "left_shoulder",
+            "from": "body",
+            "to": "left_arm"
+        },
+        {
+            "euid": "right_shoulder",
+            "from": "body",
+            "to": "right_arm"
+        },
+        {
+            "euid": "left_arm_bone",
+            "from": "left_arm",
+            "to": "left_hand"
+        },
+        {
+            "euid": "right_arm_bone",
+            "from": "right_arm",
+            "to": "right_hand"
+        },
+        {
+            "euid": "body_bone",
+            "from": "body",
+            "to": "body_end"
+        }
+    ],
+    "skins": [
+        {
+            "euid": "body_skin",
+            "targets": [
+                "body_bone"
+            ],
+            "front": "body.png",
+            "width": 100,
+            "fit": "stretch"
+        },
+        {
+            "euid": "arm_skin",
+            "targets": [
+                "left_arm_bone",
+                "right_arm_bone"
+            ],
+            "width": 25,
+            "fit": "stretch",
+            "front": "arm_front.png",
+            "back": "arm_back.png"
+        }
+    ]
+}
